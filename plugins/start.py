@@ -6,7 +6,7 @@ async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton(
-            "ʀᴇᴘᴏʀᴛ ʙᴜɢs 📨", url="https://t.me/hackingUC")]
+            "ʀᴇᴘᴏʀᴛ ʙᴜɢs 📨", url="https://t.me/gamehub_req")]
     ])
     welcomed = f"ʜᴇʏ <b>{message.from_user.first_name}</b>\n/help ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ"
     await message.reply_text(welcomed, reply_markup=joinButton)
